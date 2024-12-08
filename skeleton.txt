@@ -1,0 +1,69 @@
+==========Folder Structure==========
+
+E-Commerce_App/
+├── src/
+│   ├── database/               
+│   │   ├── DatabaseConnection.java
+│   │   └── DatabaseConfig.java
+│   ├── entity/                
+│   │   ├── products/
+│   │   │   ├── Category.java
+│   │   │   ├── Products.java
+│   │   │   └── Reviews.java
+│   │   ├── promotions/
+│   │   │   ├── Coupon.java
+│   │   │   ├── Discount.java
+│   │   │   ├── Points.java
+│   │   │   └── Promotions.java
+│   │   ├── users/
+│   │   │   ├── accounts/
+│   │   │   │   ├── Admin.java
+│   │   │   │   ├── Customer.java
+│   │   │   │   └── User.java
+│   │   │   ├── details/
+│   │   │   │   ├── Cart.java
+│   │   │   │   ├── HelpTicket.java
+│   │   │   │   ├── MembershipType.java
+│   │   │   │   ├── Orders.java
+│   │   │   │   ├── OrderStatus.java
+│   │   │   │   └── WishList.java
+│   ├── dao/                    
+│   │   ├── ProductDAO.java
+│   │   ├── UserDAO.java
+│   │   ├── OrderDAO.java
+│   │   ├── impl/
+│   │   │   ├── ProductDAOImpl.java
+│   │   │   ├── UserDAOImpl.java
+│   │   │   └── OrderDAOImpl.java
+│   ├── service/                
+│   │   ├── ProductService.java
+│   │   ├── UserService.java
+│   │   └── OrderService.java
+│   ├── controller/             
+│   │   ├── AdminDashboardController.java
+│   │   └── UserController.java
+│   └── exceptions/             
+│       └── CustomException.java
+└── resources/                 
+    ├── draft.txt
+    ├── README.md
+    └── skeleton.txt
+
+==========Skeleton Templates==========
+Package: game.engine
+Type: Abstract Class
+Description: 
+==
+"Name.java"
+Package: xx.
+Type: Class
+Description:
+===
+void methodName(Param1,...)
+    Description: 
+    Parameters:
+        Param1 : Description
+    Return Type: void
+
+===============Skeleton===============
+
